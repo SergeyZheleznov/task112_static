@@ -136,11 +136,6 @@
   <ItemGroup>
     <ClCompile Include="task112_Library.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\task112_Client\task112_Client.vcxproj">
-      <Project>{0c271394-bc35-43c9-bb2f-7de5ffe03fdb}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
